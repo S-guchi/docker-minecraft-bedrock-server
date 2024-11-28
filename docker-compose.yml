@@ -30,6 +30,6 @@ services:
     ports:
       - 19132:19132/udp
     volumes:
-      - ./bedrock:/data
+      - /root/DockerVolume/minecraft:/data
       - /etc/timezone:/etc/timezone:ro
     restart: unless-stopped
