@@ -12,7 +12,7 @@ services:
       #GAMEMODE: "SURVIVAL"
       #FORCE_GAMEMODE: "FALSE"
       #DIFFICULTY: "EASY"
-      #ALLOW_CHEATS: "FALSE"
+      ALLOW_CHEATS: "TRUE"
       #MAX_PLAYERS: 10
       #ONLINE_MODE: "TRUE"
       #WHITE_LIST: "FALSE"
