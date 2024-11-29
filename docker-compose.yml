@@ -27,6 +27,7 @@ services:
       LEVEL_NAME: "lv19132" # a default is "Bedrock level"
       EULA: "TRUE"
       VERSION: "LATEST"
+      OPS: "2535460769169638"
     ports:
       - 19132:19132/udp
     volumes:
