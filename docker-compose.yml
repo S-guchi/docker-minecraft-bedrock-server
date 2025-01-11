@@ -12,7 +12,7 @@ services:
       #GAMEMODE: "SURVIVAL"
       #FORCE_GAMEMODE: "FALSE"
       #DIFFICULTY: "EASY"
-      ALLOW_CHEATS: "TRUE"
+      #ALLOW_CHEATS: "false"
       #MAX_PLAYERS: 10
       #ONLINE_MODE: "TRUE"
       #WHITE_LIST: "FALSE"
@@ -31,6 +31,6 @@ services:
     ports:
       - 19132:19132/udp
     volumes:
-      - /root/DockerVolume/minecraft:/data
+      - /volumes/minecraft:/data
       - /etc/timezone:/etc/timezone:ro
     restart: unless-stopped
